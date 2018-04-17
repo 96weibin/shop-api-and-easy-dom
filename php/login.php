@@ -27,7 +27,7 @@
   //链接mysql
   $con = mysql_connect('localhost','root');
   if(!$con){
-    die('can` tconnect '.mysql_error);
+    die('can` tconnect '.mysql_error());
   }else{
     // echo "连接成功";
   };

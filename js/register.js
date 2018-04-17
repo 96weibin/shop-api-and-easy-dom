@@ -36,7 +36,7 @@ function login(){
         console.log(res);
       });
     }
-  }
+  };
 }
 
 //注册
