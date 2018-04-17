@@ -4,21 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>注册</title>
+  <title>登录</title>
   <link rel="stylesheet" href="./css/login.css">
 </head>
 <body>
-  <h1>注册页面</h1>
-  <a href="index.html">返回首页</a>
+  <h1>登录页面</h1>
+  <div class="user">
+    username:<input id='user' type="text" name="username" placeholder="请设置用户名">
+  </div>
+  <div class="pass">
+    password:<input id='pass' type="password" name="password" placeholder="请设置入密码">
+  </div>
+  <div class="mail">
+    E-mail: <input type="email" name="mail" placeholder="请输入邮箱">
+  </div>
   <br>
-  username:<input id='user' type="text" name="username" placeholder="请设置用户名">
-  <br>
-  password:<input id='pass' type="password" name="password" placeholder="请设置入密码">
-  <br>
-  E-mail: <input type="email" name="mail" placeholder="请输入邮箱">
-  <br>
-  <input class="sub" type="button" value="注册">
-
+  <input class="sub" type="button" value="登录">
+  <div class="reg">前往注册</div>
 
   <script src="./js/ajax.js"></script>
   <script src="./js/register.js"></script>
