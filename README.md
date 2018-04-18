@@ -26,6 +26,23 @@
 
 在这里调试后端 感觉很不错
 
+### insert汉字
+
+  在建表的时候我使用的是 图形化工具 相对简单   ，就是设置 排序规则 为  utf-8-general-ci
+
+  在php  文件中 链接 mySQL 选择数据库 然后  要在插入之前设置   即可实现向mySQL 数据库 读写 中文
+
+```php
+  mysql_query("set character set 'utf8'");//读库
+  mysql_query("set names 'utf8'");//写库
+```
+
+### 类型选择
+
+文字————————> varchar
+数字————————> int
+文件————————> blob  作为二进制
+
 ### php中用到的 mySQL语句
 
 ```php
